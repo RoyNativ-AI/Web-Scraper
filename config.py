@@ -1,0 +1,15 @@
+config = {
+    "domain": "https://books.toscrape.com",
+    "include_keywords": None,
+    "exclude_keywords": None,
+    "max_depth": 2,
+    "target_div": None,
+    "start_with": None,
+    "split_length": 2000,
+    "excluded_protocols": ['whatsapp:', 'tel:', 'mailto:'],
+    "max_retries": 3,
+    "base_delay": 1,
+    "concurrent_requests": 5,
+    "connections_per_host": 3,
+    "delay_between_requests": 0.5,
+}
