@@ -56,3 +56,9 @@ Thumbs.db
 # Scraped data directories
 */scraped_data.csv
 .claude/
+# Test files
+test_*.py
+test_*.html
+# Client configs
+config_*.py
+!config.py
